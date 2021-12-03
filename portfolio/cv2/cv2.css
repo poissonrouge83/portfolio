@@ -1,0 +1,437 @@
+/*------------------------------------------en dessous ce touve les css pour petit ecrans--------------------------------------------------------*/
+
+@media screen and (max-width:600px)
+{
+   
+   
+    body{
+        border: solid 2px rgb(255, 217, 0);
+        
+    }
+    
+    
+    
+    #conteneur{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    
+        
+    }
+    .colone-gauche{
+        background-color: rgb(42, 48, 56);
+        color: white;
+        width: 100;
+        padding: 1%;
+    }
+    
+    
+    .pouik{
+        padding-left: 5%;
+    }
+    
+    
+    img{
+        width: 90%;
+       
+        margin-left: 5%;
+    }
+
+
+    
+    
+    #boutton{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    
+    #boutton :hover{
+        width: 30px;
+        height: 30px;
+        
+    
+    
+    }
+    
+    .icone-phone{
+        color: rgb(250, 233, 0);
+    
+    }
+    
+    .icone-mail{
+        color: rgb(247, 8, 8);
+    }
+    
+    .icone-linkedin{
+        color: rgb(30, 85, 236);
+    }
+    
+    .icone-adresse{
+        color: rgb(11, 241, 22);
+    }
+    
+    .colone-gauche h2{
+       border-top: solid 1px white;
+       border-bottom: solid 1px white;
+        width: 100%;
+        height: auto;
+        
+    }
+    
+    .logo-photo{
+        width: 80%;
+        height: 80%;
+        margin-left: 10%;
+        color: rgb(33, 58, 58);
+    }
+    
+    .logo-music{
+        width: 80%;
+        height: 80%;
+        margin-left: 10%;
+        color: rgb(33, 58, 58);
+        
+    }
+    .logo-puzzle{
+        width: 80%;
+        height: 80%;
+        margin-left: 10%;
+        color: rgb(33, 58, 58);
+        
+    }
+    .logo-nature{
+        width: 80%;
+        height: 80%;
+        margin-left: 10%;
+        color: rgb(33, 58, 58);
+    
+    }
+    
+    .colone-droite{
+        background:linear-gradient(to top ,#6e8b99,#dde8ed );
+        width: 100%;
+        border-bottom-left-radius: 120%;
+        
+    }
+    
+    .colone-droite img{
+
+        width: 60%;
+        height: 50%;
+        position: absolute;
+        right: 0px;
+        border-bottom-left-radius:  500%;
+        
+        opacity: 0.4;
+        margin-right: 2%;
+        
+    }
+    
+    
+    .colone-droite h2{
+        border-top: solid 1px black;
+        border-bottom: solid 1px black;
+    }
+    
+    table { 
+        table-layout: fixed; 
+        border-collapse: collapse; 
+        margin-top: 2%;
+        margin-bottom: 2%; 
+        margin-left: 5%;
+        border: 2px solid rgb(83, 87, 88); 
+    }
+    
+    table td { 
+        width: 80px; 
+        height: 80px; 
+        position: relative; 
+    }
+    
+    table tr td div { 
+        top: 0; 
+        width: 80px; 
+        height: 80px; 
+        position: absolute; 
+        border: 2px solid rgb(255, 217, 0); 
+        z-index: 1; 
+    }
+    
+    table tr td div:hover 
+    { 
+        z-index: 2; 
+    }
+
+ 
+
+ 
+
+
+    @-webkit-keyframes blink {
+        0%   { background-color:rgb(255, 255, 255); }
+        10%  { background-color: rgb(213, 230, 235);}
+        20%  { background-color:rgb(130, 169, 180);}
+        30%  { background-color: rgb(113, 169, 184);}
+        40%  { background-color:rgb(76, 146, 158); }
+        50%  { background-color: rgb(40, 116, 134);}
+        60%  { background-color:rgb(76, 146, 158); }
+        70%  { background-color: rgb(113, 169, 184);}
+        80%  { background-color:rgb(130, 169, 180);}
+        90%  { background-color: rgb(213, 230, 235);}
+        100% { background-color: white;}
+    }
+
+
+    @-moz-keyframes blink {
+         0%   { background-color:rgb(255, 255, 255); }
+        10%  { background-color: rgb(213, 230, 235);}
+         20%  { background-color:rgb(130, 169, 180);}
+         30%  { background-color: rgb(113, 169, 184);}
+        40%  { background-color:rgb(76, 146, 158); }
+        50%  { background-color: rgb(40, 116, 134);}
+        60%  { background-color:rgb(76, 146, 158); }
+        70%  { background-color: rgb(113, 169, 184);}
+        80%  { background-color:rgb(130, 169, 180);}
+        90%  { background-color: rgb(213, 230, 235);}
+        100% {background-color: white;}    
+    }
+
+
+    @-ms-keyframes blink {
+        0%   { background-color:rgb(255, 255, 255); }
+        10%  { background-color: rgb(213, 230, 235);}
+        20%  { background-color:rgb(130, 169, 180);}
+        30%  { background-color: rgb(113, 169, 184);}
+        40%  { background-color:rgb(76, 146, 158); }
+        50%  { background-color: rgb(40, 116, 134);}
+        60%  { background-color:rgb(76, 146, 158); }
+        70%  { background-color: rgb(113, 169, 184);}
+        80%  { background-color:rgb(130, 169, 180);}
+        90%  { background-color: rgb(213, 230, 235);}
+        100% {background-color: white;}    
+    }
+
+
+    body{
+        -webkit-animation: blink 30s infinite ;
+        -moz-animation:    blink 10s infinite;
+        -ms-animation:     blink 10s infinite;
+
+    }
+}   
+
+    /*--------------------------------------------dessous ce trouve le css pour PC------------------------------------------------------------------------------*/
+
+@media screen and (min-width:601px){
+    body{
+        border: solid 2px rgb(255, 217, 0);
+        
+    }
+    
+    
+    
+    #conteneur{
+        display: flex;
+    
+        
+    }
+    .colone-gauche{
+        background-color: rgb(42, 48, 56);
+        color: white;
+        width: 20%;
+        padding: 1%;
+    }
+
+    .colone-gauche h2{
+        letter-spacing: 1px;
+    }
+    
+    
+    img{
+        width: 95%;
+       
+        margin-left: 2.5%;
+    }
+    
+    
+    #boutton{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    
+    #boutton :hover{
+        width: 40px;
+        height: 40px;
+        
+    
+    
+    }
+    
+    .icone-phone{
+        color: rgb(250, 233, 0);
+    
+    }
+    
+    .icone-mail{
+        color: rgb(247, 8, 8);
+    }
+    
+    .icone-linkedin{
+        color: rgb(30, 85, 236);
+    }
+    
+    .icone-adresse{
+        color: rgb(11, 241, 22);
+    }
+    
+    .colone-gauche h2{
+       border-top: solid 1px white;
+       border-bottom: solid 1px white;
+        width: 100%;
+        height: auto;
+        
+    }
+    
+    .logo-photo{
+        width: 80%;
+        height: 80%;
+        margin-left: 10%;
+        color: rgb(33, 58, 58);
+    }
+    
+    .logo-music{
+        width: 80%;
+        height: 80%;
+        margin-left: 10%;
+        color: rgb(33, 58, 58);
+        
+    }
+    .logo-puzzle{
+        width: 80%;
+        height: 80%;
+        margin-left: 10%;
+        color: rgb(33, 58, 58);
+        
+    }
+    .logo-nature{
+        width: 80%;
+        height: 80%;
+        margin-left: 10%;
+        color: rgb(33, 58, 58);
+    
+    }
+    
+    .colone-droite{
+        background:linear-gradient(to top, #6e8b99,#dde8ed);
+        width: 80%;
+        border-bottom-left-radius: 80%;
+        padding: 1%;
+        
+    }
+    
+    .colone-droite img{
+        width: 30%;
+        height: 40%;
+        position: absolute;
+        right: 0px;
+        border-bottom-left-radius:  100%;
+        margin-right: 0.8%;
+        opacity: 0.5;
+        
+    }
+    
+    
+    .colone-droite h2{
+        border-top: solid 1px black;
+        border-bottom: solid 1px black;
+        letter-spacing: 1px;
+        
+    }
+    
+    table { 
+        table-layout: fixed; 
+        border-collapse: collapse; 
+        margin-top: 2%;
+        margin-bottom: 2%; 
+        border: 2px solid rgb(83, 87, 88); 
+    }
+    
+    table td { 
+        width: 140px; 
+        height: 140px; 
+        position: relative; 
+    }
+    
+    table tr td div { 
+        top: 0; 
+        width: 140px; 
+        height: 140px; 
+        position: absolute; 
+        border: 2px solid rgb(255, 217, 0); 
+        z-index: 1; 
+    }
+    
+    table tr td div:hover { 
+        z-index: 2; 
+    }
+
+
+    @-webkit-keyframes blink {
+        0%   { background-color:rgb(255, 255, 255); }
+        10%  { background-color: rgb(213, 230, 235);}
+        20%  { background-color:rgb(130, 169, 180);}
+        30%  { background-color: rgb(113, 169, 184);}
+        40%  { background-color:rgb(76, 146, 158); }
+        50%  { background-color: rgb(40, 116, 134);}
+        60%  { background-color:rgb(76, 146, 158); }
+        70%  { background-color: rgb(113, 169, 184);}
+        80%  { background-color:rgb(130, 169, 180);}
+        90%  { background-color: rgb(213, 230, 235);}
+        100% { background-color: white;}
+    }
+   
+   
+   /* @-moz-keyframes blink {
+        0%   { background-color:rgb(255, 255, 255); }
+        10%  { background-color: rgb(213, 230, 235);}
+        20%  { background-color:rgb(130, 169, 180);}
+        30%  { background-color: rgb(113, 169, 184);}
+        40%  { background-color:rgb(76, 146, 158); }
+        50%  { background-color: rgb(40, 116, 134);}
+        60%  { background-color:rgb(76, 146, 158); }
+        70%  { background-color: rgb(113, 169, 184);}
+        80%  { background-color:rgb(130, 169, 180);}
+        90%  { background-color: rgb(213, 230, 235);}
+        100% { background-color: white;}    
+    }
+   
+   
+    @-ms-keyframes blink {
+        0%   { background-color:rgb(255, 255, 255); }
+        10%  { background-color: rgb(213, 230, 235);}
+        20%  { background-color:rgb(130, 169, 180);}
+        30%  { background-color: rgb(113, 169, 184);}
+        40%  { background-color:rgb(76, 146, 158); }
+        50%  { background-color: rgb(40, 116, 134);}
+        60%  { background-color:rgb(76, 146, 158); }
+        70%  { background-color: rgb(113, 169, 184);}
+        80%  { background-color:rgb(130, 169, 180);}
+        90%  { background-color: rgb(213, 230, 235);}
+        100% { background-color: white;}    
+    }
+    */
+   
+    body{
+     -webkit-animation: blink 30s infinite ;
+     /*-moz-animation:    blink 10s infinite;
+     -ms-animation:     blink 10s infinite;*/
+    
+    }
+
+
+    }
+
+
+    
+
